@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background-color: #0d192b;
+}
+
+#wrapper {
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(17, 32, 56, 0.71);
+  box-shadow: 5px 5px 15px 5px rgba(17, 32, 56, 0.71);
+  padding: 20px;
+  background-color: #14253d;
+  margin: 8em auto 2em auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#wrapper #nft-image img {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+#wrapper #nft-nd {
+  color: white;
+}
+
+#wrapper #nft-nd p {
+  color: #8bacda;
+}
+
+#wrapper #nft-nd h1:hover {
+  cursor: pointer;
+  color: #00fff7;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+#wrapper #nft-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#wrapper #nft-stats #eth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#wrapper #nft-stats #eth p {
+  margin-left: 5px;
+  color: #00fff7;
+  font-weight: 600;
+}
+
+#wrapper #nft-stats #time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrapper #nft-stats #time p {
+  margin-left: 5px;
+  color: #8bacda;
+}
+
+#wrapper hr {
+  border: 1px solid #2f415b;
+}
+
+#wrapper #nft-creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrapper #nft-creator img {
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 40px;
+}
+
+#wrapper #nft-creator p {
+  margin-left: 10px;
+  color: #8bacda;
+}
+
+#wrapper #nft-creator p span {
+  color: white;
+}
+
+#wrapper #nft-creator p span:hover {
+  cursor: pointer;
+  color: #00fff7;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.attribution {
+  color: white;
+}
+
+.attribution a {
+  color: #00fff7;
+}
+/*# sourceMappingURL=style.css.map */
